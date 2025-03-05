@@ -1,5 +1,5 @@
-import 'package:flutter_homework_2/home_work_1/user.dart';
-import 'package:flutter_homework_2/home_work_1/user_data_validator.dart';
+import 'package:flutter_homework_2/home_work_1/data/user.dart';
+import 'package:flutter_homework_2/home_work_1/validator/user_data_validator.dart';
 
 class UserRepository {
 

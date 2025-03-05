@@ -1,7 +1,15 @@
-import 'file.dart';
+import '../data/file.dart';
 
-class FileConverter {
+abstract class BaseFileConverter {
+  void convert(File file);
+}
+
+class SimpleConverter extends BaseFileConverter {
+  @override
   void convert(File file) {
     print("Конвертируем ${file.filePath} в формат ${file.fileType}");
   }
+
 }
+
+

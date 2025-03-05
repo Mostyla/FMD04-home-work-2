@@ -1,5 +1,5 @@
-import 'package:flutter_homework_2/home_work_1/user.dart';
-import 'package:flutter_homework_2/home_work_1/user_data_repository.dart';
+import 'package:flutter_homework_2/home_work_1/data/user.dart';
+import 'package:flutter_homework_2/home_work_1/repository/user_data_repository.dart';
 
 // Почему исходный код нарушал принцип единой ответственности?
 // Какую роль выполнял класс User Manger?

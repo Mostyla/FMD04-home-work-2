@@ -1,3 +1,3 @@
 abstract class ReadableFile {
-  void readText();
+  void readText(String content);
 }

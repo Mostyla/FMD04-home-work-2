@@ -1,4 +1,4 @@
-import 'converter/converter.dart';
+import 'converter.dart';
 
 class PdfConverter implements Converter {
   @override
